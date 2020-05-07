@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,13 @@
 		1799C61A24625C460040D973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1799C61824625C460040D973 /* LaunchScreen.storyboard */; };
 		1799C62524625C460040D973 /* KRBannerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799C62424625C460040D973 /* KRBannerViewTests.swift */; };
 		1799C63024625C460040D973 /* KRBannerViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799C62F24625C460040D973 /* KRBannerViewUITests.swift */; };
+		1799C63E24625CB40040D973 /* KRBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799C63D24625CB40040D973 /* KRBannerView.swift */; };
+		1799C64024625F100040D973 /* KRBannerCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799C63F24625F100040D973 /* KRBannerCollectionCell.swift */; };
+		1799C6442462642C0040D973 /* KRBannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799C6432462642C0040D973 /* KRBannerViewModel.swift */; };
+		1799C64624626B280040D973 /* KRBannerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799C64524626B280040D973 /* KRBannerCollectionView.swift */; };
+		1799C64E2463AEC30040D973 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799C64D2463AEC30040D973 /* OtherViewController.swift */; };
+		1799C6502463B29A0040D973 /* AnotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799C64F2463B29A0040D973 /* AnotherViewController.swift */; };
+		241DD60AC6892898651E1BCE /* Pods_KRBannerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA5D23D94AF080C681BD57F /* Pods_KRBannerView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,15 @@
 		1799C62B24625C460040D973 /* KRBannerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRBannerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1799C62F24625C460040D973 /* KRBannerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRBannerViewUITests.swift; sourceTree = "<group>"; };
 		1799C63124625C460040D973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1799C63D24625CB40040D973 /* KRBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRBannerView.swift; sourceTree = "<group>"; };
+		1799C63F24625F100040D973 /* KRBannerCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRBannerCollectionCell.swift; sourceTree = "<group>"; };
+		1799C6432462642C0040D973 /* KRBannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRBannerViewModel.swift; sourceTree = "<group>"; };
+		1799C64524626B280040D973 /* KRBannerCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRBannerCollectionView.swift; sourceTree = "<group>"; };
+		1799C64D2463AEC30040D973 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		1799C64F2463B29A0040D973 /* AnotherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherViewController.swift; sourceTree = "<group>"; };
+		3EEB75248672B70D866AD335 /* Pods-KRBannerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRBannerView.debug.xcconfig"; path = "Target Support Files/Pods-KRBannerView/Pods-KRBannerView.debug.xcconfig"; sourceTree = "<group>"; };
+		C6298ED6ED97885AE1AD30BF /* Pods-KRBannerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRBannerView.release.xcconfig"; path = "Target Support Files/Pods-KRBannerView/Pods-KRBannerView.release.xcconfig"; sourceTree = "<group>"; };
+		FDA5D23D94AF080C681BD57F /* Pods_KRBannerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRBannerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				241DD60AC6892898651E1BCE /* Pods_KRBannerView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				1799C62324625C460040D973 /* KRBannerViewTests */,
 				1799C62E24625C460040D973 /* KRBannerViewUITests */,
 				1799C60B24625C440040D973 /* Products */,
+				E567AE68C68153602A6A285C /* Pods */,
+				19A2AFEDE40D8DD9298C7F59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +121,12 @@
 				1799C60D24625C440040D973 /* AppDelegate.swift */,
 				1799C60F24625C440040D973 /* SceneDelegate.swift */,
 				1799C61124625C440040D973 /* ViewController.swift */,
+				1799C64D2463AEC30040D973 /* OtherViewController.swift */,
+				1799C64F2463B29A0040D973 /* AnotherViewController.swift */,
+				1799C63D24625CB40040D973 /* KRBannerView.swift */,
+				1799C64524626B280040D973 /* KRBannerCollectionView.swift */,
+				1799C63F24625F100040D973 /* KRBannerCollectionCell.swift */,
+				1799C6432462642C0040D973 /* KRBannerViewModel.swift */,
 				1799C61324625C440040D973 /* Main.storyboard */,
 				1799C61624625C460040D973 /* Assets.xcassets */,
 				1799C61824625C460040D973 /* LaunchScreen.storyboard */,
@@ -128,6 +153,23 @@
 			path = KRBannerViewUITests;
 			sourceTree = "<group>";
 		};
+		19A2AFEDE40D8DD9298C7F59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDA5D23D94AF080C681BD57F /* Pods_KRBannerView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E567AE68C68153602A6A285C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EEB75248672B70D866AD335 /* Pods-KRBannerView.debug.xcconfig */,
+				C6298ED6ED97885AE1AD30BF /* Pods-KRBannerView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1799C63424625C470040D973 /* Build configuration list for PBXNativeTarget "KRBannerView" */;
 			buildPhases = (
+				9FD8C80D9F4D841D1BBE6913 /* [CP] Check Pods Manifest.lock */,
 				1799C60624625C440040D973 /* Sources */,
 				1799C60724625C440040D973 /* Frameworks */,
 				1799C60824625C440040D973 /* Resources */,
+				E4FB255A8D377C24694AC652 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,14 +298,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9FD8C80D9F4D841D1BBE6913 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KRBannerView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4FB255A8D377C24694AC652 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KRBannerView/Pods-KRBannerView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KRBannerView/Pods-KRBannerView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KRBannerView/Pods-KRBannerView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1799C60624625C440040D973 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1799C61224625C440040D973 /* ViewController.swift in Sources */,
+				1799C64E2463AEC30040D973 /* OtherViewController.swift in Sources */,
+				1799C64624626B280040D973 /* KRBannerCollectionView.swift in Sources */,
+				1799C6442462642C0040D973 /* KRBannerViewModel.swift in Sources */,
 				1799C60E24625C440040D973 /* AppDelegate.swift in Sources */,
+				1799C64024625F100040D973 /* KRBannerCollectionCell.swift in Sources */,
+				1799C6502463B29A0040D973 /* AnotherViewController.swift in Sources */,
 				1799C61024625C440040D973 /* SceneDelegate.swift in Sources */,
+				1799C63E24625CB40040D973 /* KRBannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +512,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,6 +524,7 @@
 		};
 		1799C63524625C470040D973 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EEB75248672B70D866AD335 /* Pods-KRBannerView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +542,7 @@
 		};
 		1799C63624625C470040D973 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6298ED6ED97885AE1AD30BF /* Pods-KRBannerView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
